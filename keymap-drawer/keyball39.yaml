@@ -19,7 +19,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: '-', s: _}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '8'}
   - Z
   - X
@@ -34,10 +34,10 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: '7'}
   - {t: '$$mdi:apple-keyboard-option$$', h: SNIPE}
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Alt+ `, h: MOUSE, s: Alt+ ~}
   - {t: '$$mdi:keyboard-return$$', h: '9'}
-  - {t: '$$mdi:backspace$$', h: SYM}
+  - {t: '$$mdi:backspace$$', h: SCROLL}
   - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
   NUM:
   - $$mdi:keyboard-tab$$
@@ -46,29 +46,29 @@ layers:
   - '9'
   - {t: '-', s: _}
   - +
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:arrow-up-bold$$
   - '*'
   - {t: /, s: '?'}
-  - .
+  - '0'
   - '4'
   - '5'
   - '6'
   - {t: /, s: '?'}
-  - '0'
+  - $$mdi:keyboard-tab$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - '1'
   - '2'
   - '3'
+  - .
   - '0'
-  - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - .
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - .
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -78,7 +78,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   SYM:
   - '!'
   - '@'
@@ -90,35 +90,35 @@ layers:
   - (
   - )
   - {t: \, s: '|'}
-  - <
-  - '>'
+  - '*'
+  - '"'
   - '?'
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
-  - {t: '=', s: +}
+  - '"'
+  - ':'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '|'
   - '*'
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - _
-  - +
-  - {t: ',', s: <}
-  - .
+  - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
+  - <
+  - '>'
   - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - _
   MOUSE:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -146,16 +146,16 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - QWRT
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - Alt+ $$mdi:keyboard-tab$$
