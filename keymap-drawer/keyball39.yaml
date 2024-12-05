@@ -102,9 +102,9 @@ layers:
   - '|'
   - '*'
   - {t: '''', s: '"'}
-  - VOLUME DOWN
-  - VOLUME UP
-  - BRI INC
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-7$$
   - {t: /, s: '?'}
   - {t: ;, s: ':'}
   - <
@@ -112,7 +112,7 @@ layers:
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
