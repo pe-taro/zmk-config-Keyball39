@@ -20,7 +20,7 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '8'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '7'}
   - Z
   - X
   - C
@@ -31,12 +31,12 @@ layers:
   - {t: ',', s: <}
   - .
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: '7'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '6'}
   - {t: '$$mdi:apple-keyboard-option$$', h: SNIPE}
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Alt+ `, h: MOUSE, s: Alt+ ~}
-  - {t: '$$mdi:keyboard-return$$', h: '9'}
+  - {t: '$$mdi:keyboard-return$$', h: '8'}
   - {t: '$$mdi:backspace$$', h: SCROLL}
   - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
   NUM:
@@ -66,10 +66,10 @@ layers:
   - '3'
   - .
   - '0'
-  - .
   - $$mdi:mouse-left-click-outline$$
-  - .
   - $$mdi:mouse-right-click-outline$$
+  - {t: ',', s: <}
+  - .
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -95,7 +95,7 @@ layers:
   - '?'
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - '"'
+  - {t: /, s: '?'}
   - ':'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -105,7 +105,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', s: '"'}
+  - '?'
   - {t: ;, s: ':'}
   - <
   - '>'
@@ -239,7 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '7':
+  '6':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -279,7 +279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '8':
+  '7':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -319,7 +319,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '9':
+  '8':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
