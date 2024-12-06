@@ -29,15 +29,15 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: NUM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: Alt+ `, h: MOUSE, s: Alt+ ~}
+  - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
   NUM:
   - $$mdi:keyboard-tab$$
@@ -69,13 +69,13 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: ',', s: <}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - .
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '@'
@@ -99,7 +99,7 @@ layers:
   - ':'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '?'
+  - '~'
   - '*'
   - {t: '''', s: '"'}
   - $$mdi:volume-low$$
@@ -109,15 +109,15 @@ layers:
   - {t: ;, s: ':'}
   - <
   - '>'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Alt+ `, s: Alt+ ~}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - _
   MOUSE:
   - $$mdi:keyboard-tab$$
@@ -139,7 +139,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - Z
   - X
   - C
