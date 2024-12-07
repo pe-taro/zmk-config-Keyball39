@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: SCROLL}
   - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
   NUM:
   - $$mdi:keyboard-tab$$
@@ -195,7 +195,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Alt+ `, s: Alt+ ~}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -357,5 +357,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
