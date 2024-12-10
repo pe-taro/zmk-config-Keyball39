@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - {t: '$$mdi:backspace$$', h: SCROLL}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
   NUM:
   - $$mdi:keyboard-tab$$
@@ -139,7 +139,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:backspace-reverse-outline$$
   - Z
   - X
   - C
@@ -189,7 +189,7 @@ layers:
   - M
   - {t: '$$mdi:transfer$$', type: trans}
   - L
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -279,7 +279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  control:
+  sleep:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -319,7 +319,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SCROLL:
+  bt:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -357,5 +357,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [2, 11, 9, 18]
+  k: {t: sleep, h: toggle}
+  l: [QWRT]
+- p: [11, 2, 9, 18]
+  k: {t: QWRT, h: toggle}
+  l: [sleep]
+- p: [4, 24, 37]
+  k: {t: bt, h: toggle}
+  l: [QWRT]
+- p: [4, 24, 37]
+  k: {t: QWRT, h: toggle}
+  l: [bt]
