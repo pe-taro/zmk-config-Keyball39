@@ -510,11 +510,13 @@ rect.held, rect.combo.held {
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -723,11 +725,13 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">@</text>
 </g>
 <g class="combo combopos-0">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -939,11 +943,13 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">_</text>
 </g>
 <g class="combo combopos-0">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -1154,11 +1160,13 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key held alternate tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -1364,11 +1372,13 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -1588,11 +1598,13 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -1854,11 +1866,13 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -2072,11 +2086,13 @@ rect.held, rect.combo.held {
 </a><text x="406" y="76" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>
@@ -2301,11 +2317,13 @@ rect.held, rect.combo.held {
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M84,123 l-45,-59" class="combo"/>
-<path d="M84,123 l45,59" class="combo"/>
-<rect rx="6" ry="6" x="70" y="110" width="28" height="26" class="combo"/>
-<text x="84" y="123" class="combo tap">
-<tspan x="84" dy="-0.6em" style="font-size: 60%">Alt+</tspan><tspan x="84" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
+<rect rx="6" ry="6" x="42" y="197" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="47" y="201" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="14" y="64" width="28" height="26" class="combo"/>
+<text x="28" y="77" class="combo tap">
+<tspan x="28" dy="-0.6em">Alt+</tspan><tspan x="28" dy="1.2em">`</tspan>
 </text>
 </g>
 </g>

@@ -372,5 +372,7 @@ combos:
 - p: [4, 24, 37]
   k: {t: QWRT, h: toggle}
   l: [bt]
-- p: [0, 32]
-  k: Alt+ $$mdi:keyboard-tab$$
+- p: [30, 31]
+  k: $$mdi:apple-keyboard-command$$
+- p: [0, 10]
+  k: Alt+ `
