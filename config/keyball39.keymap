@@ -87,8 +87,13 @@
         };
 
         alr+tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <0 32>;
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <30 31>;
+        };
+
+        kana {
+            bindings = <&kp LA(GRAVE)>;
+            key-positions = <0 10>;
         };
     };
 
