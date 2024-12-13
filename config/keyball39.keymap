@@ -159,10 +159,10 @@
 
         muse {
             bindings = <
-&kp TAB         &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5                               &kp LC(Y)      &kp             &kp UP_ARROW    &kp              &kp LS(V)
-&kp A           &kp S             &kp D         &kp F         &kp G                                &kp            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp
-&kp Z           &kp X             &kp C         &kp V         &kp B                                &kp LC(Z)      &kp             &kp             &kp PERIOD       &kp RIGHT_CONTROL
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp           &kp SPACE  &kp BACKSPACE  &kp ENTER  &kp BACKSPACE                                                   &kp
+&kp TAB         &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4   &kp N5                            &kp LC(Y)         &kp LEFT_CONTROL  &kp UP_ARROW      &kp LEFT_CONTROL  &kp LS(V)
+&kp A           &kp S             &kp D         &kp F          &kp G                             &kp LEFT_CONTROL  &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp LEFT_CONTROL
+&kp Z           &kp X             &kp C         &kp V          &kp B                             &kp LC(Z)         &kp LEFT_CONTROL  &kp LEFT_CONTROL  &kp PERIOD        &kp RIGHT_CONTROL
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE                                                           &kp LEFT_CONTROL
             >;
         };
 
