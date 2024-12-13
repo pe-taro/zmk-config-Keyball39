@@ -150,12 +150,12 @@
             >;
         };
 
-        gui {
+        muse {
             bindings = <
-&trans                &trans     &trans            &trans  &trans                  &trans  &trans              &kp LG(UP_ARROW)    &trans               &trans
-&trans                &kp LG(S)  &kp LG(D)         &trans  &trans                  &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans
-&kp LG(LSHIFT)        &trans     &trans            &trans  &trans                  &trans  &trans              &trans              &trans               &trans
-&kp LG(LEFT_CONTROL)  &trans     &kp LG(LEFT_ALT)  &trans  &trans  &trans  &trans  &trans                                                               &trans
+&kp TAB         &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5                               &kp LC(Y)      &kp             &kp UP_ARROW    &kp              &kp LC(Y)
+&kp A           &kp S             &kp D         &kp F         &kp G                                &kp            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp
+&kp Z           &kp X             &kp C         &kp V         &kp B                                &kp LC(Z)      &kp             &kp             &kp PERIOD       &kp
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp           &kp SPACE  &kp BACKSPACE  &kp ENTER  &kp BACKSPACE                                                   &kp
             >;
         };
 
@@ -184,6 +184,15 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans      &trans      &trans      &trans  &trans
 &bt BT_PRV    &trans        &trans        &trans        &trans                        &bl BL_TOG  &bl BL_INC  &bl BL_DEC  &trans  &trans
 &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                      &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&kp                   &kp        &kp               &kp  &kp            &kp  &kp                 &kp LG(UP_ARROW)    &kp                  &kp
+&kp                   &kp LG(S)  &kp LG(D)         &kp  &kp            &kp  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp
+&kp LG(LSHIFT)        &kp        &kp               &kp  &kp            &kp  &kp                 &kp                 &kp                  &kp
+&kp LG(LEFT_CONTROL)  &kp        &kp LG(LEFT_ALT)  &kp  &kp  &kp  &kp  &kp                                                               &kp
             >;
         };
     };
