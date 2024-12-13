@@ -85,6 +85,11 @@
             key-positions = <4 24 37>;
             layers = <8>;
         };
+
+        alr+tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <0 32>;
+        };
     };
 
     keymap {
