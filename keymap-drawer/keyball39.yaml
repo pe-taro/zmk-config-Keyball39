@@ -372,3 +372,5 @@ combos:
 - p: [4, 24, 37]
   k: {t: QWRT, h: toggle}
   l: [bt]
+- p: [0, 32]
+  k: Alt+ $$mdi:keyboard-tab$$
