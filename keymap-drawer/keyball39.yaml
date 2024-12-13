@@ -206,39 +206,39 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - Ctl+ Y
-  - ''
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-up-bold$$
-  - ''
+  - $$mdi:apple-keyboard-control$$
   - Sft+ V
   - A
   - S
   - D
   - F
   - G
-  - ''
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - ''
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
   - B
   - Ctl+ Z
-  - ''
-  - ''
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-control$$
   - .
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - ''
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - ''
+  - $$mdi:apple-keyboard-control$$
   shift:
   - Sft+ Q
   - Sft+ W
