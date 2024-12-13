@@ -97,7 +97,7 @@
             key-positions = <0 10>;
         };
 
-        to0 {
+        to02 {
             bindings = <&to 0>;
             key-positions = <30 31 32 24>;
             layers = <5>;
