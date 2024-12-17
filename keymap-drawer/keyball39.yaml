@@ -115,7 +115,7 @@ layers:
   - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: Alt+ `, s: Alt+ ~}
+  - {t: Alt+`, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - _
@@ -125,11 +125,11 @@ layers:
   - E
   - R
   - T
-  - Ctl+ $$mdi:keyboard-tab$$
-  - Alt+ $$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:keyboard-tab$$
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - Alt+ $$mdi:arrow-right-bold$$
-  - Ctl+ W
+  - Alt+$$mdi:arrow-right-bold$$
+  - Ctl+W
   - A
   - S
   - D
@@ -195,7 +195,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+ `, s: Alt+ ~}
+  - {t: Alt+`, s: Alt+~}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -205,11 +205,11 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - Ctl+ Y
+  - Ctl+Y
   - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-control$$
-  - Sft+ V
+  - Sft+V
   - A
   - S
   - D
@@ -225,8 +225,8 @@ layers:
   - C
   - V
   - B
-  - Ctl+ Z
-  - $$mdi:apple-keyboard-control$$
+  - Ctl+Z
+  - Ctl+C
   - $$mdi:apple-keyboard-control$$
   - .
   - $$mdi:apple-keyboard-control$$
@@ -240,39 +240,39 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   shift:
-  - Sft+ Q
-  - Sft+ W
-  - Sft+ E
-  - Sft+ R
-  - Sft+ T
-  - Sft+ Y
-  - Sft+ U
-  - Sft+ I
-  - Sft+ O
-  - Sft+ P
-  - Sft+ A
-  - Sft+ S
-  - Sft+ D
-  - Sft+ F
-  - Sft+ G
-  - Sft+ H
-  - Sft+ J
-  - Sft+ K
-  - Sft+ L
+  - Sft+Q
+  - Sft+W
+  - Sft+E
+  - Sft+R
+  - Sft+T
+  - Sft+Y
+  - Sft+U
+  - Sft+I
+  - Sft+O
+  - Sft+P
+  - Sft+A
+  - Sft+S
+  - Sft+D
+  - Sft+F
+  - Sft+G
+  - Sft+H
+  - Sft+J
+  - Sft+K
+  - Sft+L
   - '~'
-  - Sft+ $$mdi:apple-keyboard-shift$$
-  - Sft+ X
-  - Sft+ C
-  - Sft+ V
-  - Sft+ B
-  - Sft+ N
-  - Sft+ M
+  - Sft+$$mdi:apple-keyboard-shift$$
+  - Sft+X
+  - Sft+C
+  - Sft+V
+  - Sft+B
+  - Sft+N
+  - Sft+M
   - <
   - '>'
   - _
-  - Sft+ $$mdi:apple-keyboard-control$$
-  - Sft+ $$mdi:apple-keyboard-command$$
-  - Sft+ $$mdi:apple-keyboard-option$$
+  - Sft+$$mdi:apple-keyboard-control$$
+  - Sft+$$mdi:apple-keyboard-command$$
+  - Sft+$$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -376,7 +376,7 @@ combos:
   k: {t: muse, h: toggle}
   l: [QWRT]
 - p: [0, 10]
-  k: Alt+ `
+  k: Alt+`
 - p: [30, 31, 32, 24]
   k: {t: QWRT, h: toggle}
   l: [muse]
