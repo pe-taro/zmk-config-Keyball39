@@ -93,11 +93,6 @@
             layers = <0>;
         };
 
-        kana {
-            bindings = <&kp LA(GRAVE)>;
-            key-positions = <10 0>;
-        };
-
         to01 {
             bindings = <&to 0>;
             key-positions = <30 31 32 24>;
