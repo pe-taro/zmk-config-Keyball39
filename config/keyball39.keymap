@@ -95,7 +95,7 @@
 
         kana {
             bindings = <&kp LA(GRAVE)>;
-            key-positions = <0 10>;
+            key-positions = <10 0>;
         };
 
         to01 {
