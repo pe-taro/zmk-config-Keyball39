@@ -375,8 +375,6 @@ combos:
 - p: [30, 31, 32, 24]
   k: {t: muse, h: toggle}
   l: [QWRT]
-- p: [10, 0]
-  k: Alt+`
 - p: [30, 31, 32, 24]
   k: {t: QWRT, h: toggle}
   l: [muse]
