@@ -33,7 +33,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
@@ -179,7 +179,7 @@ layers:
   - J
   - K
   - L
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
