@@ -19,8 +19,8 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '-', s: _}
+  - Z
   - X
   - C
   - V
@@ -32,7 +32,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
@@ -60,7 +60,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '=', s: +}
-  - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - '1'
   - '2'
   - '3'
@@ -140,7 +140,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - X
   - C
   - V
@@ -220,7 +220,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-control$$
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - X
   - C
   - V
