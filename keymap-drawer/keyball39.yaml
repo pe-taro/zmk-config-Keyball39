@@ -1,6 +1,6 @@
 layers:
   QWRT:
-  - Q
+  - $$mdi:keyboard-tab$$
   - W
   - E
   - R
@@ -19,8 +19,8 @@ layers:
   - J
   - K
   - L
-  - {t: '-', s: _}
-  - Z
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -30,10 +30,10 @@ layers:
   - {t: ',', s: <}
   - .
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: NUM}
+  - $$mdi:apple-keyboard-command$$
+  - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
@@ -60,7 +60,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '=', s: +}
-  - '0'
+  - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
   - '1'
   - '2'
   - '3'
@@ -70,8 +70,8 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: ',', s: <}
   - .
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -140,7 +140,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -150,8 +150,8 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -220,7 +220,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-control$$
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -230,8 +230,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - .
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
