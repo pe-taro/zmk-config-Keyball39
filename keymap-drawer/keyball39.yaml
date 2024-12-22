@@ -380,7 +380,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -395,7 +395,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -431,3 +431,11 @@ combos:
   k: HOME
 - p: [26, 25]
   k: END
+- p: [12, 23]
+  k: $$mdi:pan-down$$
+- p: [2, 13]
+  k: $$mdi:pan-up$$
+- p: [13, 14]
+  k: $$mdi:pan-right$$
+- p: [12, 11]
+  k: $$mdi:pan-left$$
