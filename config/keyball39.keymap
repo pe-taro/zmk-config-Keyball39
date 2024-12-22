@@ -10,11 +10,13 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -62,56 +64,111 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Lclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
+        };
+
+        Rclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <17 18>;
+        };
+
+        Uscroll {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <6 15>;
+        };
+
+        Dscroll {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <16 25>;
+        };
+
+        Lscroll {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <26 17>;
+        };
+
+        Rscroll {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <27 18>;
+        };
+
+        toSleep {
+            bindings = <&to 7>;
+            key-positions = <2 11 9 18>;
+            layers = <0>;
+        };
+
+        to0 {
+            bindings = <&to 0>;
+            key-positions = <10 11 12 13>;
+        };
+
+        toBT {
+            bindings = <&to 8>;
+            key-positions = <4 24 37>;
+        };
+
+        toMusescore {
+            bindings = <&to 9>;
+            key-positions = <30 32 31 24>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q      &kp W         &kp E     &kp R         &kp T                                    &kp A            &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D     &kp F         &kp G                                    &kp H            &kp J  &kp K      &kp L    &kp SEMI
-&kp Z      &kp X         &kp C     &kp V         &kp B                                    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 5 ESCAPE  &lt 1 SPACE  &lt 4 LA(GRAVE)  &kp ENTER  &lt 2 BACKSPACE                             &kp RSHFT
+&kp TAB           &kp W         &kp E       &kp R         &kp T                                      &kp Y          &kp U  &kp I            &kp O    &kp P
+&kp A             &kp S         &kp D       &kp F         &kp G                                      &kp H          &kp J  &kp K            &kp L    &mt RIGHT_SHIFT MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C       &kp V         &kp B                                      &kp N          &kp M  &mt SPACE COMMA  &kp DOT  &mt RIGHT_CONTROL SLASH
+&kp LCTRL         &kp LEFT_WIN  &mt LALT Q  &lt 1 DELETE  &lt 2 SPACE  &lt 3 LA(GRAVE)  &lt 4 ENTER  &kp BACKSPACE                                   &lt 3 RIGHT_CONTROL
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                         &msc SCRL_UP    &none         &none         &none         &none
-&none         &none         &none         &none         &none                         &msc SCRL_DOWN  &mkp LCLK     &trans        &trans        &none
-&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                    &trans
+&kp TAB    &kp N7    &kp N8    &kp N9  &kp NUMBER_5                   &kp PLUS        &kp MINUS  &kp UP     &kp ASTERISK    &kp FSLH
+&kp N0     &kp N4    &kp N5    &kp N6  &kp FSLH                       &msc SCRL_UP    &kp LEFT   &kp DOWN   &kp RIGHT       &kp EQUAL
+&kp LSHFT  &kp N1    &kp N2    &kp N3  &kp DOT                        &msc SCRL_DOWN  &mkp LCLK  &mkp RCLK  &msc SCRL_LEFT  &msc SCRL_RIGHT
+&kp LCTRL  &kp LGUI  &kp LALT  &trans  &trans        &trans  &kp RET  &kp BSPC                                              &trans
             >;
         };
 
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
-&trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &trans
-            >;
-        };
-
-        function_layer {
-            label = "FUN";
-            bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
-&kp F5  &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
-&kp F9  &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
+&kp EXCLAMATION  &kp AT_SIGN      &kp HASH      &kp DOLLAR    &kp PERCENT                   &kp CARET      &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&kp ASTERISK     &kp PRINTSCREEN  &kp HOME      &kp END       &kp C_BRI_UP                  &kp SEMI       &kp DOUBLE_QUOTES  &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE
+&kp LSHFT        &kp K_MUTE       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DN                  &kp BACKSLASH  &kp LEFT           &kp RIGHT             &kp DOWN               &kp UP
+&kp LCTRL        &kp LGUI         &kp LALT      &trans        &trans        &trans  &trans  &trans                                                                         &trans
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &kp LC(TAB)     &kp LA(LEFT)  &kp UP     &kp RA(RIGHT)   &kp LC(W)
+&trans  &trans  &trans  &trans  &trans                  &msc SCRL_UP    &kp LEFT      &kp DOWN   &kp RIGHT       &trans
+&trans  &trans  &trans  &trans  &trans                  &msc SCRL_DOWN  &mkp LCLK     &mkp RCLK  &msc SCRL_LEFT  &msc SCRL_RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                   &trans
+            >;
+        };
+
+        function_layer {
+            label = "FUN";
+            bindings = <
+&kp F1     &kp F2     &kp F3     &kp F4   &kp F5                   &none   &none  &none  &none  &none
+&kp F6     &kp F7     &kp F8     &kp F9   &kp F10                  &none   &none  &none  &none  &none
+&kp LSHFT  &kp SPACE  &kp SPACE  &kp F11  &kp F12                  &none   &none  &none  &none  &none
+&kp LCTRL  &kp LGUI   &kp LALT   &trans   &trans   &trans  &trans  &trans                       &trans
             >;
         };
 
@@ -123,6 +180,48 @@
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
             >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        sleep {
+            bindings = <
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none                       &none
+            >;
+
+            label = "sleep_mode";
+        };
+
+        bt_seting {
+            bindings = <
+&bt BT_CLR    &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans  &trans  &trans  &trans  &trans
+&bt BT_PRV    &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                          &trans
+            >;
+
+            label = "bt_seting";
+        };
+
+        musescore {
+            bindings = <
+&kp TAB    &kp N2    &kp N3    &kp N4    &kp N5                         &kp LC(Z)       &kp LC(C)  &kp UP     &kp LC(V)       &kp LC(Y)
+&kp A      &kp S     &kp D     &kp F     &kp G                          &msc SCRL_UP    &kp LEFT   &kp DOWN   &kp RIGHT       &trans
+&kp LSHFT  &kp X     &kp C     &kp V     &kp B                          &msc SCRL_DOWN  &mkp LCLK  &mkp RCLK  &msc SCRL_LEFT  &msc SCRL_RIGHT
+&kp LCTRL  &kp LGUI  &kp LALT  &kp BSPC  &kp SPACE  &kp GRAVE  &kp RET  &kp BSPC                                              &trans
+            >;
+
+            label = "musescore";
         };
     };
 };
