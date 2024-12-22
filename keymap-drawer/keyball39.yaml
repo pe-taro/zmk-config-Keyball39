@@ -91,9 +91,9 @@ layers:
   - )
   - {t: '=', s: +}
   - '*'
-  - PRINTSCREEN
-  - HOME
-  - END
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - $$mdi:brightness-5$$
   - {t: ;, s: ':'}
   - '"'
@@ -181,7 +181,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - PRINTSCREEN
   - $$mdi:keyboard-space$$
   - F11
   - F12
@@ -404,13 +404,13 @@ combos:
   k: $$mdi:mouse-left-click-outline$$
 - p: [17, 18]
   k: $$mdi:mouse-right-click-outline$$
-- p: [6, 15]
+- p: [7, 16]
   k: $$mdi:pan-up$$
-- p: [16, 25]
+- p: [17, 26]
   k: $$mdi:pan-down$$
-- p: [26, 17]
+- p: [17, 27]
   k: $$mdi:pan-left$$
-- p: [27, 18]
+- p: [17, 28]
   k: $$mdi:pan-right$$
 - p: [2, 11, 9, 18]
   k: {t: sleep_mode, h: toggle}
@@ -427,3 +427,7 @@ combos:
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
 - p: [16, 7, 8, 19]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
+- p: [5, 6]
+  k: HOME
+- p: [26, 25]
+  k: END
