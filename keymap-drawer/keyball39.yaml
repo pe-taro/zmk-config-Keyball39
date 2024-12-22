@@ -379,7 +379,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - O
+  - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
