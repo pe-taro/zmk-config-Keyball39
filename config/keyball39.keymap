@@ -168,6 +168,11 @@
             bindings = <&msc SCRL_LEFT>;
             key-positions = <12 11>;
         };
+
+        Lback {
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
