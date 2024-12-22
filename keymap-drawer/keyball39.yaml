@@ -361,10 +361,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   musescore:
   - $$mdi:keyboard-tab$$
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - W
+  - E
+  - R
+  - T
   - Ctl+Z
   - Ctl+C
   - $$mdi:arrow-up-bold$$
@@ -375,21 +375,21 @@ layers:
   - D
   - F
   - G
-  - $$mdi:pan-up$$
+  - {t: '8', s: '*'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - O
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
   - B
-  - $$mdi:pan-down$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-right$$
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
