@@ -421,7 +421,7 @@ combos:
   k: {t: bt_seting, h: toggle}
 - p: [30, 32, 31, 24]
   k: {t: musescore, h: toggle}
-- p: [11, 2]
+- p: [11, 0]
   k: $$mdi:keyboard-esc$$
 - p: [10, 1, 2, 13]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}

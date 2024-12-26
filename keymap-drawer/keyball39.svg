@@ -577,8 +577,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-11">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -885,8 +885,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -1183,8 +1183,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -1474,8 +1474,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -1766,8 +1766,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -2059,8 +2059,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -2352,8 +2352,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -2645,8 +2645,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -2944,8 +2944,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
@@ -3245,8 +3245,8 @@ rect.held, rect.combo.held {
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="98" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="51" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="42" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="61" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo bootloader combopos-10">
 <path d="M112,65 l-67,32" class="combo"/>
