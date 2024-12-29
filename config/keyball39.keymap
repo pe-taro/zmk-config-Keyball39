@@ -275,10 +275,10 @@
 
         musescore {
             bindings = <
-&kp TAB      &kp W     &kp E     &kp R     &kp T                           &kp LC(Z)   &kp LC(C)  &kp UP    &kp LC(V)  &kp LC(Y)
-&kp A        &kp S     &kp D     &kp F     &kp G                           &kp PERIOD  &kp LEFT   &kp DOWN  &kp RIGHT  &mt RIGHT_SHIFT O
-&mt LSHFT Z  &kp X     &kp C     &kp V     &kp B                           &kp N2      &kp N3     &kp N4    &kp N5     &kp N6
-&kp LCTRL    &kp LGUI  &kp LALT  &kp BSPC  &kp SPACE  &kp ESCAPE  &kp RET  &kp BSPC                                    &trans
+&kp TAB      &kp W     &kp E           &kp R     &kp T                           &kp LC(Z)     &kp LC(LEFT_PARENTHESIS)  &kp UP        &kp LC(RIGHT_PARENTHESIS)  &kp LC(Y)
+&kp A        &kp S     &kp D           &kp F     &kp G                           &kp PERIOD    &kp LEFT                  &kp DOWN      &kp RIGHT                  &mt RIGHT_SHIFT O
+&mt LSHFT Z  &kp X     &kp C           &kp V     &kp B                           &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3  &kp NUMBER_4               &kp NUMBER_5
+&kp LCTRL    &kp LGUI  &mt LEFT_ALT Q  &kp BSPC  &kp SPACE  &kp ESCAPE  &kp RET  &kp BSPC                                                                         &trans
             >;
 
             label = "musescore";
