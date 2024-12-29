@@ -366,9 +366,9 @@ layers:
   - R
   - T
   - Ctl+Z
-  - Ctl+C
+  - Ctl+(
   - $$mdi:arrow-up-bold$$
-  - Ctl+V
+  - Ctl+)
   - Ctl+Y
   - A
   - S
@@ -385,14 +385,14 @@ layers:
   - C
   - V
   - B
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - $$mdi:apple-keyboard-control$$
   - LGUI
-  - $$mdi:apple-keyboard-option$$
+  - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
