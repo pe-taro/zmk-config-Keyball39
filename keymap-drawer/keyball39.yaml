@@ -319,7 +319,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  bt_seting:
+  BT:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -359,7 +359,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  musescore:
+  SCORE:
   - $$mdi:keyboard-tab$$
   - W
   - E
@@ -418,9 +418,9 @@ combos:
 - p: [10, 11, 12, 13]
   k: {t: QWRT, h: toggle}
 - p: [4, 24, 37]
-  k: {t: bt_seting, h: toggle}
+  k: {t: BT, h: toggle}
 - p: [30, 32, 31, 24]
-  k: {t: musescore, h: toggle}
+  k: {t: SCORE, h: toggle}
 - p: [11, 0]
   k: $$mdi:keyboard-esc$$
 - p: [10, 1, 2, 13]

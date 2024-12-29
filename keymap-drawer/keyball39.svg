@@ -564,16 +564,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-10">
@@ -872,16 +872,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -1170,16 +1170,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -1461,16 +1461,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -1753,16 +1753,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -2046,16 +2046,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -2339,16 +2339,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -2632,16 +2632,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -2690,8 +2690,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2750)" class="layer-bt_seting">
-<text x="0" y="28" class="label" id="bt_seting">bt_seting:</text>
+<g transform="translate(40, 2750)" class="layer-BT">
+<text x="0" y="28" class="label" id="BT">BT:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2931,16 +2931,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
@@ -2989,8 +2989,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3094)" class="layer-musescore">
-<text x="0" y="28" class="label" id="musescore">musescore:</text>
+<g transform="translate(40, 3094)" class="layer-SCORE">
+<text x="0" y="28" class="label" id="SCORE">SCORE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3227,16 +3227,16 @@ rect.held, rect.combo.held {
 <path d="M341,142 l-71,9" class="combo"/>
 <path d="M341,142 l162,80" class="combo"/>
 <rect rx="6" ry="6" x="327" y="129" width="28" height="26" class="combo"/>
-<a href="#bt_seting">
-<text x="341" y="142" class="combo tap layer-activator"><tspan style="font-size: 67%">bt_seting</tspan></text>
+<a href="#BT">
+<text x="341" y="142" class="combo tap layer-activator">BT</text>
 </a><text x="341" y="153" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
 <path d="M126,193 l-80,20" class="combo"/>
 <path d="M126,193 l108,-33" class="combo"/>
 <rect rx="6" ry="6" x="112" y="180" width="28" height="26" class="combo"/>
-<a href="#musescore">
-<text x="126" y="193" class="combo tap layer-activator"><tspan style="font-size: 67%">musescore</tspan></text>
+<a href="#SCORE">
+<text x="126" y="193" class="combo tap layer-activator">SCORE</text>
 </a><text x="126" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-9">
