@@ -279,7 +279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  sleep_mode:
+  SEEP:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -413,7 +413,7 @@ combos:
 - p: [17, 28]
   k: $$mdi:pan-right$$
 - p: [2, 11, 9, 18]
-  k: {t: sleep_mode, h: toggle}
+  k: {t: SEEP, h: toggle}
   l: [QWRT]
 - p: [10, 11, 12, 13]
   k: {t: QWRT, h: toggle}
