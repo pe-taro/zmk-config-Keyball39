@@ -366,9 +366,9 @@ layers:
   - R
   - T
   - Ctl+Z
-  - Ctl+(
+  - (
   - $$mdi:arrow-up-bold$$
-  - Ctl+)
+  - )
   - Ctl+Y
   - A
   - S
