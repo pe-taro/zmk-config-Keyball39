@@ -261,7 +261,7 @@
 &none  &none  &none  &none  &none  &none  &none  &none                       &none
             >;
 
-            label = "sleep_mode";
+            label = "SEEP";
         };
 
         bt_seting {
