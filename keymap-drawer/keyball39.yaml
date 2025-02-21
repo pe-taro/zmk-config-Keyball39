@@ -431,13 +431,5 @@ combos:
   k: HOME
 - p: [26, 25]
   k: END
-- p: [12, 23]
-  k: $$mdi:pan-down$$
-- p: [2, 13]
-  k: $$mdi:pan-up$$
-- p: [13, 14]
-  k: $$mdi:pan-right$$
 - p: [12, 11]
   k: $$mdi:pan-left$$
-- p: [1, 2]
-  k: Alt+$$mdi:arrow-left-bold$$
