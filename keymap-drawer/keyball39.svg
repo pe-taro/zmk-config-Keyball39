@@ -526,12 +526,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -593,12 +597,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-14">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -829,12 +837,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -886,12 +898,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -1111,12 +1127,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -1168,12 +1188,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -1386,12 +1410,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -1443,12 +1471,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -1662,12 +1694,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -1719,12 +1755,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -1939,12 +1979,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -1996,12 +2040,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -2216,12 +2264,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -2273,12 +2325,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -2493,12 +2549,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -2550,12 +2610,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -2776,12 +2840,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -2833,12 +2901,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
@@ -3056,12 +3128,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="635" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="47" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="579" y="51" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+<path d="M616,70 l-39,15" class="combo"/>
+<path d="M616,70 l39,15" class="combo"/>
+<rect rx="6" ry="6" x="602" y="57" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="607" y="61" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="103" width="28" height="26" class="combo"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="579" y="107" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+<path d="M616,108 l-41,29" class="combo"/>
+<path d="M616,108 l38,-11" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="607" y="99" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
@@ -3113,12 +3189,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="635" y="56" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
-<text x="532" y="39" class="combo tap">HOME</text>
+<path d="M560,35 l-37,5" class="combo"/>
+<path d="M560,35 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="22" width="28" height="26" class="combo"/>
+<text x="560" y="35" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="518" y="138" width="28" height="26" class="combo"/>
-<text x="532" y="151" class="combo tap">END</text>
+<path d="M560,147 l-37,5" class="combo"/>
+<path d="M560,147 l37,-5" class="combo"/>
+<rect rx="6" ry="6" x="546" y="134" width="28" height="26" class="combo"/>
+<text x="560" y="147" class="combo tap">END</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
