@@ -436,7 +436,9 @@ combos:
   k: $$mdi:pan-left$$
 - p: [23, 22, 21, 24]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-- p: [0, 32]
-  k: APPLICATION
+- p: [30, 36]
+  k: AC SEND
 - p: [11, 12, 13, 14]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
+- p: [0, 32]
+  k: CMENU
