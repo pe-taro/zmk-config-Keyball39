@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: 'Sft+$$mdi:apple-keyboard-caps$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
-  - {t: '$$mdi:backspace$$', h: AC SEARCH}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   NUM:
   - $$mdi:keyboard-tab$$
