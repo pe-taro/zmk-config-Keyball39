@@ -29,10 +29,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -170,13 +171,18 @@
         };
 
         appkey {
-            bindings = <&kp K_APPLICATION>;
-            key-positions = <0 32>;
+            bindings = <&kp C_AC_SEND>;
+            key-positions = <30 36>;
         };
 
         BT0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <11 12 13 14>;
+        };
+
+        taskswitch {
+            bindings = <&kp K_CMENU>;
+            key-positions = <0 32>;
         };
     };
 
