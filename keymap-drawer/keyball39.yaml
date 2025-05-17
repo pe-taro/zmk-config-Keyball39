@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: Q}
   - W
   - E
   - R
@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: 'Sft+$$mdi:apple-keyboard-caps$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: AC SEARCH}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   NUM:
   - $$mdi:keyboard-tab$$
@@ -106,11 +106,11 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:brightness-7$$
+  - '|'
+  - $$mdi:keyboard-space$$
   - {t: \, s: '|'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - {t: /, s: '?'}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -409,9 +409,9 @@ combos:
   k: $$mdi:pan-up$$
 - p: [17, 26, 18]
   k: $$mdi:pan-down$$
-- p: [17, 27]
+- p: [17, 16, 25]
   k: $$mdi:pan-left$$
-- p: [17, 28]
+- p: [27, 18, 19]
   k: $$mdi:pan-right$$
 - p: [2, 11, 9, 18]
   k: {t: SEEP, h: toggle}
@@ -432,13 +432,9 @@ combos:
   k: HOME
 - p: [26, 25, 27]
   k: END
-- p: [12, 11]
-  k: $$mdi:pan-left$$
 - p: [23, 22, 21, 24]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-- p: [30, 36]
-  k: AC SEND
+- p: [9, 8]
+  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [11, 12, 13, 14]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-- p: [0, 32]
-  k: CMENU
