@@ -434,7 +434,5 @@ combos:
   k: END
 - p: [23, 22, 21, 24]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-- p: [9, 8]
-  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [11, 12, 13, 14]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
