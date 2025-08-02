@@ -627,6 +627,13 @@ rect.held, rect.combo.held {
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-17">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 344)" class="layer-NUM">
@@ -942,6 +949,13 @@ rect.held, rect.combo.held {
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 688)" class="layer-SYM">
@@ -1247,6 +1261,13 @@ rect.held, rect.combo.held {
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-SCROLL">
@@ -1543,6 +1564,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 </g>
 </g>
@@ -1841,6 +1869,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 </g>
 </g>
@@ -2141,6 +2176,13 @@ rect.held, rect.combo.held {
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2063)" class="layer-6">
@@ -2440,6 +2482,13 @@ rect.held, rect.combo.held {
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2406)" class="layer-SEEP">
@@ -2738,6 +2787,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 </g>
 </g>
@@ -3044,6 +3100,13 @@ rect.held, rect.combo.held {
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 3094)" class="layer-SCORE">
@@ -3345,6 +3408,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
 <text x="168" y="102" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-16">
+<path d="M168,35 l65,5" class="combo"/>
+<path d="M168,35 l-65,0" class="combo"/>
+<rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
+<text x="168" y="46" class="combo hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="160" y="24" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 </g>
 </g>
