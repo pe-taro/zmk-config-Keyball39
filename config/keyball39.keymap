@@ -8,6 +8,7 @@
 #define SLEEP   7
 #define BT      8
 #define SCORE   9
+#define JIS_SCROLL 10
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -145,6 +146,15 @@
             #binding-cells = <0>;
             bindings = <&kp LC(SPACE)>;
             label = "HIRAGANA";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        jis_scroll {
+            if-layers = <JIS SCROLL>;
+            then-layer = <JIS_SCROLL>;
         };
     };
 
@@ -368,8 +378,19 @@
 
             label = "SCORE";
         };
+
+        jis_scroll_layer {
+            label = "JIS_SCR";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
     };
 };
+
 
 
 
