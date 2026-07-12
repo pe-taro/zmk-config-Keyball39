@@ -36,7 +36,7 @@ layers:
   - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: 'Ctl+$$mdi:keyboard-space$$', h: SCROLL}
+  - {t: INT KANA, h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
@@ -130,7 +130,7 @@ layers:
   - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - AltGr+$$mdi:arrow-right-bold$$
-  - Ctl+W
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
