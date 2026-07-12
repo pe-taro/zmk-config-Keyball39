@@ -42,9 +42,9 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   NUM:
   - $$mdi:keyboard-tab$$
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - KP 4
+  - KP 8
+  - KP 9
   - {t: '-', s: _}
   - +
   - {t: '-', s: _}
@@ -52,9 +52,9 @@ layers:
   - '*'
   - {t: /, s: '?'}
   - {t: '0', s: )}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - KP 4
+  - KP 5
+  - KP 6
   - {t: /, s: '?'}
   - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
@@ -62,9 +62,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: ., s: '>'}
   - $$mdi:pan-down$$
   - $$mdi:mouse-left-click-outline$$
@@ -135,7 +135,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -438,3 +438,9 @@ combos:
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
 - p: [2, 3, 4, 1]
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
+- p: [8, 9]
+  k: Ctl+W
+  l: [SCROLL]
+- p: [3, 4, 2]
+  k: Alt+F4
+  l: [SCROLL]
