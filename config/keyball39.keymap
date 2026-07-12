@@ -125,7 +125,6 @@
             bindings = <&kp MINUS>, <&kp LS(INT1)>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            masked-mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
     };
@@ -361,5 +360,6 @@
         };
     };
 };
+
 
 
