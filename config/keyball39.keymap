@@ -322,7 +322,7 @@
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &jsmt RIGHT_SHIFT MINUS
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &lt JIS_SYM SPACE  &lt 3 LANG_ZENKAKUHANKAKU  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &lt JIS_SYM SPACE  &lt 3 GRAVE  &trans  &trans                          &trans
             >;
         };
 
@@ -370,6 +370,7 @@
         };
     };
 };
+
 
 
 
