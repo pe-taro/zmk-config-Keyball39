@@ -36,7 +36,7 @@ layers:
   - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: INT KANA, h: SCROLL}
+  - {t: 'Ctl+$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
@@ -220,7 +220,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: Sft+INT1}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: Sft+INT1}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,7 +236,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: JIS_SYM}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LANG ZENKAKUHANKAKU, h: SCROLL}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
