@@ -36,15 +36,15 @@ layers:
   - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: 'Sft+$$mdi:apple-keyboard-caps$$', h: SCROLL}
+  - {t: 'Ctl+$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   NUM:
   - $$mdi:keyboard-tab$$
-  - KP 4
-  - KP 8
-  - KP 9
+  - {t: '4', s: $}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '-', s: _}
   - +
   - {t: '-', s: _}
@@ -52,9 +52,9 @@ layers:
   - '*'
   - {t: /, s: '?'}
   - {t: '0', s: )}
-  - KP 4
-  - KP 5
-  - KP 6
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - {t: /, s: '?'}
   - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
@@ -62,9 +62,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: ., s: '>'}
   - $$mdi:pan-down$$
   - $$mdi:mouse-left-click-outline$$
@@ -220,7 +220,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: Sft+INT1}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -443,7 +443,7 @@ combos:
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
 - p: [8, 9]
   k: Ctl+W
-  l: [SCROLL]
+  l: [SCROLL, JIS]
 - p: [3, 4, 2]
   k: Alt+F4
-  l: [SCROLL]
+  l: [SCROLL, JIS]
