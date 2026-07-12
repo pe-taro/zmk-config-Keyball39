@@ -128,15 +128,6 @@
             masked-mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        jsmt: jis_shift_mod_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "JIS_SHIFT_MOD_TAP";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&jisus>;
-        };
     };
 
     macros {
@@ -320,7 +311,7 @@
             label = "JIS";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &jsmt RIGHT_SHIFT MINUS
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &jisus
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &lt JIS_SYM SPACE  &trans  &trans  &trans                          &trans
             >;
@@ -370,4 +361,5 @@
         };
     };
 };
+
 
