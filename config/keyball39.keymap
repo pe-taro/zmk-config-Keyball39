@@ -1,10 +1,13 @@
 #define DEFAULT 0
 #define NUM     1
 #define SYM     2
-#define FUN     3
-#define MOUSE   4
-#define SCROLL  5
-#define SNIPE   6
+#define SCROLL  3
+#define FUN     4
+#define JIS     5
+#define JIS_SYM 6
+#define SLEEP   7
+#define BT      8
+#define SCORE   9
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -87,6 +90,33 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        jiseq: jis_equal_plus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_EQUAL_PLUS";
+            #binding-cells = <0>;
+            bindings = <&kp LS(MINUS)>, <&kp LS(SEMI)>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        jissemi: jis_semi_colon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SEMI_COLON";
+            #binding-cells = <0>;
+            bindings = <&kp SEMI>, <&kp SQT>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        jisgrv: jis_grave_tilde {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_GRAVE_TILDE";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LBKT)>, <&kp LS(EQUAL)>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -165,6 +195,14 @@
         Rreset {
             bindings = <&sys_reset>;
             key-positions = <16 7 8 19>;
+        };
+
+        toggle_jis {
+            bindings = <&tog JIS>;
+            key-positions = <16 17 18 19>;
+            layers = <DEFAULT JIS>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <125>;
         };
 
         home {
@@ -258,22 +296,23 @@
             >;
         };
 
-        snipe_layer {
-            label = "SNIPE";
+        jis_layer {
+            label = "JIS";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &lt JIS_SYM SPACE  &trans  &trans  &trans                          &trans
             >;
         };
 
-        layer_6 {
+        jis_symbol_layer {
+            label = "JIS_SYM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&kp EXCLAMATION  &kp LBKT   &kp HASH      &kp DOLLAR    &kp PERCENT                   &kp EQUAL     &kp LS(N6)  &kp LS(N8)  &kp LS(N9)  &jiseq
+&kp LS(SQT)      &kp SPACE  &kp SPACE     &kp SPACE     &kp C_BRI_UP                  &jissemi      &kp LS(N2)  &kp RBKT    &kp NUHS    &jisgrv
+&kp LSHFT        &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DN                  &kp LS(INT3)  &kp SPACE   &kp INT1    &kp SLASH   &kp SPACE
+&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
             >;
         };
 
