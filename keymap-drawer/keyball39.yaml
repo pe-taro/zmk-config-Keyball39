@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   NUM:
   - $$mdi:keyboard-tab$$
-  - {t: '4', s: $}
+  - '7'
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '-', s: _}
